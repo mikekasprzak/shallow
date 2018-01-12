@@ -5,16 +5,16 @@ Modified version of shallow-compare. I got tired of having to hack access to the
 Original code: https://github.com/developit/preact-compat/blob/master/src/index.js#L378
 Based on: https://github.com/tkh44/shallow-compare
 
-##Example
+## Example
 ```javascript
 // preact
-import { Component, h } from 'preact'
-import shallow from 'shallow'
+import {Component, h}		from 'preact'
+import shallow			from 'shallow'
 
 class Foo extends Component {
   constructor( props ) {
     super(props);
-    this.state = { color: 'blue' }
+    this.state = {'color': 'blue'}
   }
 
   shouldComponentUpdate( nextProps, nextState ) {
