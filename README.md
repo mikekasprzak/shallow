@@ -14,7 +14,7 @@ import shallow			from 'shallow'
 class Foo extends Component {
   constructor( props ) {
     super(props);
-    this.state = {'color': 'blue'}
+    this.state = {'color': 'blue'};
   }
 
   shouldComponentUpdate( nextProps, nextState ) {
