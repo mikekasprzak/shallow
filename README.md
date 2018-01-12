@@ -2,8 +2,8 @@
 
 Modified version of shallow-compare. I got tired of having to hack access to the Diff code. Exposes Compare and Diff equally.
 
-Original code: https://github.com/developit/preact-compat/blob/master/src/index.js#L378
-Based on: https://github.com/tkh44/shallow-compare
+* Original code: https://github.com/developit/preact-compat/blob/master/src/index.js#L378
+* Based on: https://github.com/tkh44/shallow-compare
 
 ## Example
 ```javascript
