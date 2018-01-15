@@ -14,8 +14,5 @@ export function Diff( a, b ) {
 }
 
 export function Compare( instance, nextProps, nextState ) {
-	return (
-		Diff(instance.props, nextProps) ||
-		Diff(instance.state, nextState)
-	);
+	return Diff(instance.props, nextProps) || Diff(instance.state, nextState);
 }
